@@ -5,7 +5,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header bg-red-500">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -21,6 +21,6 @@ const App = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;
